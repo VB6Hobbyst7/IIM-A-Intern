@@ -7,53 +7,58 @@
 # PART 1 DECLARATION OF VARIABLES (variables, parameters, sets etc)
 
 ########################################
-#                Parameters
-########################################
-param years := 3;
-param years_total := 4;
-
-########################################
 #                 Variables
 ########################################
 #Total Crude Barrels
-
 var CRA >=0;
 var CRB >=0;
 
+#Primary Materials Extracted
+var LN >=0;
+var MN >=0;
+var HN >=0;
+var LO >=0;
+var HO >=0;
+var R >=0;
 
-var skilled_recruit{i in 1..years}>= 0;
-var semi_skilled_recruit{i in 1..years}>= 0;
-var unskilled_recruit{i in 1..years}>= 0;
+#For Reformed Gasoline
+var RG >=0;
+var LNRG >=0;
+var MNRG >=0;
+var HNRG >=0;
 
-#Total Downgraded
+#For Cracked Gasline and Oil
+var CO >=0;
+var CG >=0;
+var LNRG >=0;
+var MNRG >=0;
+var HNRG >=0;
 
-var skilled_to_semi_skilled_downgrade{i in 1..years}>= 0;
-var skilled_to_unskilled_downgrade{i in 1..years}>= 0;
-var semi_skilled_to_unskilled_downgrade{i in 1..years}>= 0;
+#For Motor Fuels
+var PMF>=0;
+var RMF>=0;
+var LNPMF>=0;
+var LNRMF>=0;
+var MNPMF>=0;
+var MNRMF>=0;
+var HNPMF>=0;
+var HNRMF>=0;
+var RGPMF>=0;
+var RGRMF>=0;
+var CGPMF>=0;
+var CGRMF>=0;
 
-#Total Retrained
+#For Jet Fuels
+var JF>=0;
+var LOJF>=0;
+var HOJF>=0;
+var RJF>=0;
+var COJF>=0;
 
-var semi_skilled_to_skilled_retrained{i in 1..years}>= 0;
-var unskilled_to_semi_skilled_retrained{i in 1..years}>= 0;
-
-#Total Redundant
-
-var skilled_redundant{i in 1..years}>= 0;
-var semi_skilled_redundant{i in 1..years}>= 0;
-var unskilled_redundant{i in 1..years}>= 0;
-
-#Total Short-Term
-
-var skilled_shortterm{i in 1..years}>= 0;
-var semi_skilled_shortterm{i in 1..years}>= 0;
-var unskilled_shortterm{i in 1..years}>= 0;
-
-#Total Overmanning
-
-var skilled_overmanning{i in 1..years} >= 0;
-var semi_skilled_overmanning{i in 1..years} >= 0;
-var unskilled_overmanning{i in 1..years} >= 0;
-
+#For Lube Oil
+var RLBO >=0;
+var FO>=0;
+var LBO>=0;
 
 # PART 2 OBJECTIVE FUNCTION: name and mathematical expression
 
