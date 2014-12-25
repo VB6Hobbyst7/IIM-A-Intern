@@ -1,0 +1,11 @@
+,,,,,
+Instructions to be Followed :,Insert Avg. Daily Demand [Weekend in Winter(In-Season)] in kgs for each SKU and Droppoint Combination (0 if no demand ),,,,
+,,,,,
+,,,,,
+,SKU-1,SKU-2,SKU-3,SKU-4,... till SKU-30
+Droppoint 1,1,2,3,4,5
+Droppoint 2,2,3,4,5,6
+Droppoint 3,3,4,5,6,7
+Droppoint 4,4,5,6,7,8
+Droppoint 5,5,6,7,8,9
+... till Droppoint 1035,6,7,8,9,10

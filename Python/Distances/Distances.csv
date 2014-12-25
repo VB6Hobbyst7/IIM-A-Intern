@@ -1,0 +1,18 @@
+,,,,,,,,,,,,,
+Instructions to be Followed :,,Enter to and fro motorable distances in kilometres,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+ ,Droppoint 1,Droppoint 2,Droppoint 3,Droppoint 4,Droppoint 5,Droppoint 6,Droppoint 7,.. till D1035,Factory 1,Factory 2,Factory 3,Factory 4,Factory 5
+Droppoint 1,0,5,4,6,2,4,7,6,6,6,6,6,6
+Droppoint 2,5,0,2,4,6,6,12,4,5,6,7,8,9
+Droppoint 3,4,2,0,5,6,7,11,5,6,7,8,9,10
+Droppoint 4,6,4,5,0,6,5,10,6,7,8,9,10,11
+Droppoint 5,2,6,6,6,0,3,5,7,8,9,10,11,12
+Droppoint 6,4,6,7,5,3,0,5,8,9,10,11,12,13
+Droppoint 7,7,12,11,10,5,5,0,9,10,11,12,13,14
+.. till D1035,,,,,,,,,,,,,
+Factory 1,,,,,,,,,,,,,
+Factory 2,,,,,,,,,,,,,
+Factory 3,,,,,,,,,,,,,
+Factory 4,,,,,,,,,,,,,
+Factory 5,,,,,,,,,,,,,
